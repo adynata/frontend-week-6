@@ -21,9 +21,8 @@ $(document).ready(function(){
             //     rotate3d: '1,1,0,180deg'
             // });
             $("article"+navLink).show();
-            $("article").transition({
-                perspective: '1000px',
-                rotate3d: '1,1,0,180deg'
+            $("article").animate({
+                fontSize: "22px"
             });
     });
 });
